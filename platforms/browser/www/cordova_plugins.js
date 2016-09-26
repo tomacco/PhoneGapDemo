@@ -12,7 +12,8 @@ module.exports = [
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "com.innoquant.moca.phonegap": "2.2.2"
+    "com.innoquant.moca.phonegap": "2.2.2",
+    "cordova-plugin-android-permissions": "0.10.0"
 }
 // BOTTOM OF METADATA
 });

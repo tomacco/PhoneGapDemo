@@ -69,6 +69,9 @@
         },
         "com.innoquant.moca.phonegap": {
             "PACKAGE_NAME": "com.mocaplatform.phonegapDemo"
+        },
+        "cordova-plugin-android-permissions": {
+            "PACKAGE_NAME": "com.mocaplatform.phonegapDemo"
         }
     },
     "dependent_plugins": {}

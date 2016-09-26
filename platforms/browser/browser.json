@@ -9,6 +9,9 @@
     "installed_plugins": {
         "com.innoquant.moca.phonegap": {
             "PACKAGE_NAME": "com.mocaplatform.phonegapDemo"
+        },
+        "cordova-plugin-android-permissions": {
+            "PACKAGE_NAME": "com.mocaplatform.phonegapDemo"
         }
     },
     "dependent_plugins": {},
@@ -23,6 +26,7 @@
         }
     ],
     "plugin_metadata": {
-        "com.innoquant.moca.phonegap": "2.2.2"
+        "com.innoquant.moca.phonegap": "2.2.2",
+        "cordova-plugin-android-permissions": "0.10.0"
     }
 }

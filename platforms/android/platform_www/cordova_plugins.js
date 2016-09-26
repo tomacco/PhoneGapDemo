@@ -459,6 +459,13 @@ module.exports = [
         "clobbers": [
             "MOCA"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-android-permissions/www/permissions.js",
+        "id": "cordova-plugin-android-permissions.Permissions",
+        "clobbers": [
+            "cordova.plugins.permissions"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -484,7 +491,8 @@ module.exports.metadata =
     "cordova-plugin-statusbar": "2.1.3",
     "cordova-plugin-vibration": "2.1.2",
     "cordova-plugin-whitelist": "1.2.2",
-    "com.innoquant.moca.phonegap": "2.2.2"
+    "com.innoquant.moca.phonegap": "2.2.2",
+    "cordova-plugin-android-permissions": "0.10.0"
 };
 // BOTTOM OF METADATA
 });

@@ -34,6 +34,30 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+        /*Request permissions at RunTime*/
+        app.requestMocaPermissions();
+    },
+    requestMocaPermissions: function(){
+        var permissions = cordova.plugins.permissions;
+        var onError = function(e) {
+            console.error(error, e);
+        };
+        var onRequestPermissionResult = function(permStatus){
+            permStatus.hasPermission? app.startProximityServices(): console.warn("Location Permission denied");  
+        };
+        var onPermissionStatus = function(permStatus) {
+            if(!permStatus.hasPermission){
+                permissions.requestPermission(permissions.ACCESS_FINE_LOCATION, onRequestPermissionResult, onError);
+            }
+            else {
+               app.startProximityServices();
+            }
+        };
+        permissions.hasPermission(permissions.ACCESS_FINE_LOCATION, onPermissionStatus, onError);
+    },
+    startProximityServices: function() {
+        MOCA.setProximityEnabled(true);
+        MOCA.setGeoTrackingEnabled(true);
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
