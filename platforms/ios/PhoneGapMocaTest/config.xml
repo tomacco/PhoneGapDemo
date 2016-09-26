@@ -121,6 +121,7 @@
     <allow-intent href="itms-apps:*" />
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="BackupWebStorage" value="cloud" />
+    <preference name="DisallowOverscroll" value="true" />
     <preference name="EnableViewportScale" value="false" />
     <preference name="KeyboardDisplayRequiresUserAction" value="true" />
     <preference name="MediaPlaybackRequiresUserAction" value="false" />
@@ -137,7 +138,6 @@
     <preference name="moca_app_key" value="FAKE-KEY" />
     <preference name="moca_app_secret" value="FAKE-SECRET" />
     <preference name="gcm_sender" value="\ 888" />
-    <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
     <preference name="android-targetSdkVersion" value="23" />
 </widget>
