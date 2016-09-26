@@ -35,6 +35,7 @@ import com.innoquant.moca.MOCAPlace;
 import com.innoquant.moca.MOCARegionState;
 import com.innoquant.moca.MOCAUser;
 import com.innoquant.moca.utils.MLog;
+import com.mocaplatform.phonegapDemo.PhoneGapMocaTest;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaInterface;
@@ -140,7 +141,7 @@ public class MOCAPlugin extends CordovaPlugin {
             MOCA.initializeSDK(cordova.getActivity().getApplication(), config);
 
             Application app = cordova.getActivity().getApplication();
-            ((MOCApp)app).startListeners();
+            ((PhoneGapMocaTest)app).startListeners();
         }
     }
 
@@ -160,7 +161,7 @@ public class MOCAPlugin extends CordovaPlugin {
         }
         if(knownCallbackActions.contains(action) && checkInited(callbackContext)){
             Application app = cordova.getActivity().getApplication();
-            ((MOCApp)app).addCallbackContext(action, new MOCACallbackContext(callbackContext, data));
+            ((PhoneGapMocaTest)app).addCallbackContext(action, new MOCACallbackContext(callbackContext, data));
             return true;
         }
         executorService.execute(new Runnable() {

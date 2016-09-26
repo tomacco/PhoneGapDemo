@@ -1,4 +1,4 @@
-package com.innoquant.moca.phonegap;
+package com.mocaplatform.phonegapDemo;
 
 import android.app.Application;
 
@@ -10,6 +10,10 @@ import com.innoquant.moca.MOCAPlace;
 import com.innoquant.moca.MOCAProximity;
 import com.innoquant.moca.MOCAProximityService;
 import com.innoquant.moca.MOCAZone;
+import com.innoquant.moca.phonegap.MOCACallbackContext;
+import com.innoquant.moca.phonegap.MOCAConstants;
+import com.innoquant.moca.phonegap.MOCASharedPrefs;
+import com.innoquant.moca.phonegap.Utils;
 import com.innoquant.moca.utils.MLog;
 
 import org.apache.cordova.PluginResult;
@@ -23,7 +27,7 @@ import java.util.List;
 /**
  * Created by tomacco on 21/11/15.
  */
-public class MOCApp extends Application implements MOCAProximityService.EventListener, MOCAProximityService.ActionListener{
+public class PhoneGapMocaTest extends Application implements MOCAProximityService.EventListener, MOCAProximityService.ActionListener{
 
     private HashMap<String, MOCACallbackContext> callbackContextMap = new HashMap<String, MOCACallbackContext>();
 
