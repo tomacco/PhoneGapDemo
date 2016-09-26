@@ -158,5 +158,14 @@
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "com.innoquant.moca.phonegap": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mocaplatform/moca-phonegap-sdk.git",
+            "subdir": "MOCASDK"
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }

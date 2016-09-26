@@ -6,6 +6,23 @@
     "config_munge": {
         "files": {}
     },
-    "installed_plugins": {},
-    "dependent_plugins": {}
+    "installed_plugins": {
+        "com.innoquant.moca.phonegap": {
+            "PACKAGE_NAME": "com.mocaplatform.phonegapDemo"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "file": "plugins/com.innoquant.moca.phonegap/www/MOCA.js",
+            "id": "com.innoquant.moca.phonegap.MOCA",
+            "pluginId": "com.innoquant.moca.phonegap",
+            "clobbers": [
+                "MOCA"
+            ]
+        }
+    ],
+    "plugin_metadata": {
+        "com.innoquant.moca.phonegap": "2.2.2"
+    }
 }

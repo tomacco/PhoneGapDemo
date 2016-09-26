@@ -1,0 +1,75 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "com.mocaplatform.phonegapDemo"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.mocaplatform.phonegapDemo"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.mocaplatform.phonegapDemo"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "com.mocaplatform.phonegapDemo"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.mocaplatform.phonegapDemo"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "com.mocaplatform.phonegapDemo"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "com.mocaplatform.phonegapDemo"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.mocaplatform.phonegapDemo"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.mocaplatform.phonegapDemo"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.mocaplatform.phonegapDemo"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.mocaplatform.phonegapDemo"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.mocaplatform.phonegapDemo"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.mocaplatform.phonegapDemo"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "com.mocaplatform.phonegapDemo"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "com.mocaplatform.phonegapDemo"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.mocaplatform.phonegapDemo"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.mocaplatform.phonegapDemo"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.mocaplatform.phonegapDemo"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "com.mocaplatform.phonegapDemo"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.mocaplatform.phonegapDemo"
+        },
+        "com.innoquant.moca.phonegap": {
+            "PACKAGE_NAME": "com.mocaplatform.phonegapDemo"
+        }
+    },
+    "dependent_plugins": {}
+}
