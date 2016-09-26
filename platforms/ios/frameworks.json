@@ -1,18 +1,18 @@
 {
     "ImageIO.framework": 1,
-    "CoreLocation.framework": 4,
+    "CoreLocation.framework": 2,
     "AVFoundation.framework": 1,
     "AddressBook.framework": 1,
     "AddressBookUI.framework": 1,
     "CoreMotion.framework": 1,
-    "AudioToolbox.framework": 3,
+    "AudioToolbox.framework": 2,
     "SystemConfiguration.framework": 2,
     "CoreTelephony.framework": 2,
-    "libsqlite3.dylib": 1,
-    "CFNetwork.framework": 1,
-    "Foundation.framework": 1,
-    "Security.framework": 1,
-    "UIKit.framework": 2,
-    "PassKit.framework": 1,
-    "CoreBluetooth.framework": 1
+    "libsqlite3.dylib": 2,
+    "CFNetwork.framework": 2,
+    "Foundation.framework": 2,
+    "Security.framework": 2,
+    "UIKit.framework": 3,
+    "PassKit.framework": 2,
+    "CoreBluetooth.framework": 2
 }

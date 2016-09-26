@@ -67,10 +67,10 @@
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.mocaplatform.phonegapDemo"
         },
-        "com.innoquant.moca.phonegap": {
+        "cordova-plugin-android-permissions": {
             "PACKAGE_NAME": "com.mocaplatform.phonegapDemo"
         },
-        "cordova-plugin-android-permissions": {
+        "com.innoquant.moca.phonegap": {
             "PACKAGE_NAME": "com.mocaplatform.phonegapDemo"
         }
     },

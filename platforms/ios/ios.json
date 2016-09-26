@@ -190,10 +190,10 @@
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.mocaplatform.phonegapDemo"
         },
-        "com.innoquant.moca.phonegap": {
+        "cordova-plugin-android-permissions": {
             "PACKAGE_NAME": "com.mocaplatform.phonegapDemo"
         },
-        "cordova-plugin-android-permissions": {
+        "com.innoquant.moca.phonegap": {
             "PACKAGE_NAME": "com.mocaplatform.phonegapDemo"
         }
     },
@@ -789,7 +789,7 @@
         "cordova-plugin-statusbar": "2.1.3",
         "cordova-plugin-vibration": "2.1.2",
         "cordova-plugin-whitelist": "1.2.2",
-        "com.innoquant.moca.phonegap": "2.2.2",
-        "cordova-plugin-android-permissions": "0.10.0"
+        "cordova-plugin-android-permissions": "0.10.0",
+        "com.innoquant.moca.phonegap": "2.2.2"
     }
 }

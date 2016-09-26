@@ -159,19 +159,18 @@
         "is_top_level": true,
         "variables": {}
     },
-    "com.innoquant.moca.phonegap": {
-        "source": {
-            "type": "git",
-            "url": "https://github.com/mocaplatform/moca-phonegap-sdk.git",
-            "subdir": "MOCASDK"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "cordova-plugin-android-permissions": {
         "source": {
             "type": "registry",
             "id": "cordova-plugin-android-permissions@0.10.0"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.innoquant.moca.phonegap": {
+        "source": {
+            "type": "registry",
+            "id": "moca-proximity"
         },
         "is_top_level": true,
         "variables": {}
